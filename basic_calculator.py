@@ -21,5 +21,4 @@ def division(x, y):
         return x / y
     except (ZeroDivisionError, TypeError):
         return "Invalid input"
-
-print(division(1,1))
+        
